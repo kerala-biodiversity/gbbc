@@ -15,9 +15,11 @@ Then run the `data_update.py` code:
     python3 data_update.py
   ```
 
+- Output will be updated in 2024 folder.
+
 # Requirements
 
 - requests
 - python-dotenv
 - pandas
-- pyyaml
+  
