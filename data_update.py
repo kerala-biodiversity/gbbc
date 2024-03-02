@@ -6,7 +6,6 @@ from datetime import date, timedelta
 import json
 from collections import defaultdict
 import time
-import yaml
 import pandas as pd
 
 
@@ -109,10 +108,10 @@ if __name__=="__main__":
     detailed_stats = fetch_all(drange)
 
     df = pd.DataFrame(detailed_stats)
-    df.to_csv(f"all_{str(start_date)}_{str(end_date)}.csv", index=None)
+    df.to_csv(f"2024/all_{str(start_date)}_{str(end_date)}.csv", index=None)
 
     df2 = pd.DataFrame(overall_stats)
-    df2.to_csv(f"overall_{str(start_date)}_{str(end_date)}.csv", index=None)
+    df2.to_csv(f"2024/overall_{str(start_date)}_{str(end_date)}.csv", index=None)
 
 
 
