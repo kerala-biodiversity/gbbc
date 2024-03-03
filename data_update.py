@@ -33,7 +33,6 @@ class Districts(Enum):
     Malappuram = 'IN-KL-MA'
     Kozhikode = 'IN-KL-KZ'
     Idukki = 'IN-KL-ID'
-    Kerala = 'IN-KL'
 
 load_dotenv()
 api_key = os.getenv("key")
