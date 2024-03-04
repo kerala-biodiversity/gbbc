@@ -1,5 +1,4 @@
 library(tidyverse)
-library(sf)
 
 # We need to store a few things in config.R
 # ebird_file - which is path to the ebird data file (.txt)
