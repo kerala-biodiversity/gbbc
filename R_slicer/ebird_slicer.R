@@ -3,7 +3,7 @@ library(tidyverse)
 # We need to store a few things in config.R
 # ebird_file - which is path to the ebird data file (.txt)
 # iucn_file - which is path to the iucn data file (.csv)
-source("config.R")
+source("filter_config.R")
 
 if (!file.exists(ebird_file)) {
   stop("Please add ebird_file to config.R with the path to ebird data .txt file")
